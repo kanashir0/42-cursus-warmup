@@ -1,0 +1,5 @@
+Para se explicar com calma a pessoa B poderia tentar pedir um pouco de paciência e uma abertura para ela explicar qual foi a linha de raciocinio utilizada, mesmo que seja num alto nível e com isso recuperar aos poucos a lembrança sobre o projeto, pois como nós trabalhamos com códigos muitas vezes extensos e complexos, é normal de se esquecer de alguma parte.
+
+A pessoa A poderia também tentar criar uma conexão com a pessoa B e entender o motivo dela não estar conseguindo se explicar, talvez ela esteja nervosa e precise de um tempo para ler o código e respirar. A pessoa A também poderia começar a avaliação fazendo perguntas menos complexas no início para que a pessoa B tenha tempo de se sentir a vontade e pensar mais sobre o contexto do projeto.
+
+Caso a pessoa B tenha realmente trapaceado, eu acredito que a pessoa A possa tentar entender qual foi o motivo dela ter trapaceado, se foi por causa do prazo, falta de entendimento do projeto, ou por falta de algum conhecimento, e então tentar ajudar essa pessoa para que ela evite trapacear nesse e em projetos futuros, e então a pessoa A poderia explicar que precisa seguir a regra e avaliar o projeto como trapaça.
