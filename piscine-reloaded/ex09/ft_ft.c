@@ -15,12 +15,14 @@ void	ft_ft(int *nbr)
 	*nbr = 42;
 	return ;
 }
-
+/*
+#include <stdio.h>
 int	main(void)
 {
 	int	num;
 
 	num = 30;
-	ft_ft(num);
-	
-}
+	ft_ft(&num);
+	printf("num: %d\n", num);
+	return (0);
+}*/
