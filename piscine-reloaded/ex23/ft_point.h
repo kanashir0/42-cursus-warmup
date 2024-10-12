@@ -1,26 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_numbers.c                                 :+:      :+:    :+:   */
+/*   ft_point.h                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: gyasuhir <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/06 15:44:35 by gyasuhir          #+#    #+#             */
-/*   Updated: 2024/10/12 12:17:57 by gyasuhir         ###   ########.fr       */
+/*   Created: 2024/10/12 13:33:24 by gyasuhir          #+#    #+#             */
+/*   Updated: 2024/10/12 16:26:45 by gyasuhir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_putchar(char c);
+#ifndef FT_POINT_H
+# define FT_POINT_H
 
-void	ft_print_numbers(void)
+typedef struct s_point
 {
-	char	number;
+	int	x;
+	int	y;
+}	t_point;
 
-	number = '0';
-	while (number <= '9')
-	{
-		ft_putchar(number);
-		number++;
-	}
-	return ;
-}
+#endif

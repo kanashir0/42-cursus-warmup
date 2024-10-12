@@ -6,17 +6,11 @@
 /*   By: gyasuhir <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/06 15:50:22 by gyasuhir          #+#    #+#             */
-/*   Updated: 2024/10/06 16:12:45 by gyasuhir         ###   ########.fr       */
+/*   Updated: 2024/10/12 12:18:25 by gyasuhir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-
-void	ft_putchar(char c)
-{
-	write(1, &c, 1);
-	return ;
-}
+void	ft_putchar(char c);
 
 void	ft_is_negative(int n)
 {

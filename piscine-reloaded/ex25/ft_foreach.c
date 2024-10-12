@@ -1,26 +1,44 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_numbers.c                                 :+:      :+:    :+:   */
+/*   ft_foreach.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: gyasuhir <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/06 15:44:35 by gyasuhir          #+#    #+#             */
-/*   Updated: 2024/10/12 12:17:57 by gyasuhir         ###   ########.fr       */
+/*   Created: 2024/10/12 13:59:13 by gyasuhir          #+#    #+#             */
+/*   Updated: 2024/10/12 15:14:48 by gyasuhir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_putchar(char c);
-
-void	ft_print_numbers(void)
+void	ft_foreach(int *tab, int length, void (*f)(int))
 {
-	char	number;
+	int	i;
 
-	number = '0';
-	while (number <= '9')
+	i = 0;
+	while (i < length)
 	{
-		ft_putchar(number);
-		number++;
+		f(tab[i]);
+		i++;
 	}
-	return ;
 }
+/*
+#include <stdio.h>
+void	print_num(int num)
+{
+	printf("%d|", num);
+}
+int	main(void)
+{
+	int	arr[] = {1, 2, 3, 4, 5};
+	int	i;
+
+	ft_foreach(arr, 5, &print_num);
+	
+	i = 0;
+	while (i < 5)
+	{
+		printf("%d ", arr[i]);
+		i++;
+	}
+	return (0);
+}*/
